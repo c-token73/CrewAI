@@ -1,0 +1,5 @@
+{
+  "name": "CrewAI Environment",
+  "image": "python:3.11",
+  "postCreateCommand": "pip install crewai langchain-google-genai python-dotenv gitpython"
+}
